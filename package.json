@@ -1,0 +1,30 @@
+{
+  "name": "omx-directory-player",
+  "version": "1.0.0",
+  "description": "Plays video files in a directory with omxplayer",
+  "main": "dir-player.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kisfejes/omx-directory-player.git"
+  },
+  "keywords": [
+    "raspberry",
+    "omxplayer",
+    "player",
+    "directory"
+  ],
+  "author": "kisfejes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kisfejes/omx-directory-player/issues"
+  },
+  "homepage": "https://github.com/Kisfejes/omx-directory-player#readme",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
