@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Plays video files in a directory with omxplayer",
   "main": "dir-player.js",
+  "bin": {
+    "dir-player": "dir-player.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
