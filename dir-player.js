@@ -5,8 +5,10 @@ const { readdirSync } = require('fs');
 
 const supportedFileExtensions = ['.mp4', '.mkv'];
 
+const regexps = supportedFileExtensions.map(ext => new RegExp(`${ext}$`));
+
 const filesToPlay = readdirSync(process.cwd())
-  .filter(file => supportedFileExtensions.some(ext => file.includes(ext)));
+  .filter(file => regexps.some(regexp => file.match(regexp)));
 
 if (filesToPlay.length === 0) {
   process.exit();
